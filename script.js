@@ -15,12 +15,15 @@ function loadpage(e){
     $("#menu a.active").removeClass("active");
     $(this).addClass("active");
     
-    $("#content").load("about.html");
+    var href = $(this).attr("href");
+    $("#content").load("href);
+   
 }
 
 $(document).on("click", "#menu a", loadpage);
 
 // e = event. Prevent defaults functionality (going to whatever link it was clicked on) this - whatever gets clicked on 
 
+// var href works off the attribute "href" of each individual page to load it.
 
 
