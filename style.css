@@ -1,0 +1,28 @@
+
+
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #bdbb62;
+    border: 0.5px solid rgb(150, 150, 150);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color:black;
+}
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+#clients a {
+    text-decoration: none;
+    font-size: 18px;
+}
