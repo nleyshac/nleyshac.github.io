@@ -16,7 +16,7 @@ function loadpage(e){
     
     var href = $(this).attr("href");
     $("#content").load(href);
-   
+ 
 }
 
 $(document).ready(function(){
